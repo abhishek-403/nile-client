@@ -1,0 +1,27 @@
+.poster{
+    height:90vh;
+    background-image: url('../../assets/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .content{
+        height: 100%;
+        flex-direction: column;
+        gap: 20px;
+        background-color: rgba($color: rgb(0, 0, 0), $alpha: .6);
+
+        .head{
+            font-size: 3.5rem;
+            color: var(--white);
+
+
+        }
+        .sub-head{
+            font-size:1.5rem ;
+            color: var(--white);
+
+        }
+
+    }
+}

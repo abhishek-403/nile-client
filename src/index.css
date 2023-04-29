@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    user-select: none;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+:root{
+    --white:white;
+    --black:black;
+    --prim-col:#212121;
+    --sec-col:#888;
+    --ter-col:rgb(242, 0, 255);
+   
+
+    --prim-btn-col:#ae00ff;
+    --sec-btn-col:#000000;
+
+
+    --head-col:
+
+
+}
+
+
+
+h2,h3,h4,h5,h6{
+    color: var(--prim-col);
+}
+p{
+    color: var(--sec-col);
+}
+
+a{
+    color: var(--white);
+}
+
+
+
+.hover-link{
+    cursor: pointer;
+
+}
+
+.hover-link:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.hover-link:active{
+  
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    overflow: hidden;
+    
+}
+
+
+
+.btn{
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 4px;
+    padding:7px 15px ;
+    text-align: center;
+    transition: all .2s ease;
+
+}
+
+
+.btn-prim:hover{
+    background-color: #9303d5;
+
+}
+.btn-prim:active{
+    background-color: #c548ff;
+
+}
+
+
+
+.btn-sec{
+    background-color: var(--sec-btn-col);
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+
+
+.btn-sec:hover{
+    background-color: rgb(63, 54, 67);
+
+}
+.btn-sec:active{
+    background-color: #535151;
+
+}
+
+.btn-prim{
+    background-color: var(--prim-btn-col);
+    color: var(--white);
+    font-size: 1.2rem;
+}

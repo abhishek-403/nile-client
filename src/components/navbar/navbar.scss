@@ -1,0 +1,51 @@
+.navbar {
+  color: white;
+  background-color: var(--prim-col);
+  position: sticky;
+  top: 0;
+  height: 80px;
+  z-index: 99;
+
+  .nav-cont {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    height: 100%;
+    align-items: center;
+
+    .nav-left {
+      h1 {
+        cursor: pointer;
+        font-size: 3rem;
+      }
+    }
+    .nav-center {
+      .link-gp {
+        display: flex;
+
+        gap: 3px;
+        li {
+          border-radius: 20px;
+
+          .link {
+            font-size: 1.2rem;
+            display: inline-block;
+
+            padding: 7px 14px;
+          }
+        }
+      }
+    }
+    .nav-right {
+      cursor: pointer;
+      .cart {
+        span {
+          font-size: 0.8rem;
+          border-radius: 100px;
+          background-color: var(--prim-btn-col);
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
